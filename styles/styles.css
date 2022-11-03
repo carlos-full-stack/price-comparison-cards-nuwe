@@ -79,9 +79,10 @@ ul {
 
 }
 
-img-box {
+#girl-img {
 
-    width: 100px;
+    margin-left: -40px;
+    margin-right: -40px;
 }
 
 .not-available {
