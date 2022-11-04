@@ -23,7 +23,7 @@ ul {
 #card1, #card3 {
 
     background-color: #FFF; 
-    padding: 35px;
+    padding: 45px;
     margin: 30px; 
     border-radius: 10px;
 }
@@ -32,14 +32,14 @@ ul {
 
     color: #FFF;
     background-color:  #5a45f2; 
-    padding: 35px;
-    margin: 30px;
+    padding: 45px;
+    margin: 20px;
     border-width: 2px;
     border-style: solid;
     border-color: black; 
     border-radius: 10px;
 
-}
+}  
 
 .plan {
 
@@ -67,7 +67,6 @@ ul {
     text-align: center;
     margin-top: 25px;
     padding: 5px;
-    height: 18px;
 }
 
 .center {
@@ -78,6 +77,12 @@ ul {
     margin-left: auto;
     margin-right: auto;
 
+}
+
+#girl-img {
+
+    margin-left: -40px;
+    margin-right: -40px;
 }
 
 .not-available {
@@ -120,34 +125,6 @@ ul {
 
 }
 
-#starter-img {
-    
-    width: 75px;
-    height: auto; 
-    margin:auto;
-    display: block;           
-}
-
-#pro-img {
-    
-    width: 164px;
-    height: auto;
-    margin:auto;
-    display: block;                 
-}
-
-.teams-img {
-    
-    width: 94px;
-    height: auto;
-    margin-top:10px;              
-}
-
-#girl-img {
-
-    margin-left: -40px;
-    margin-right: -40px;
-}
 
 /* Form */
 
@@ -178,18 +155,9 @@ input[type="submit"]:hover {
 
 }
 
-
-#button-starter, #button-pro, #button-teams {
-
-    display: none; 
-
-}
-
-
-
 /* Desktop */
 
-    @media only screen and (min-width: 1023px) {
+    @media only screen and (min-width: 768px) {
 
 #main {
 
@@ -215,31 +183,5 @@ input[type="submit"]:hover {
     margin-bottom: 30px;
     
 }
-
-
-
-.general-starter {
-
-margin-top: 20px;
-
-}
-
-.general-pro {
-
-margin-top: 20px;
-
-}    
-.general-teams {
-
-    margin-top: 20px;
-
-}
-
-#button-starter, #button-pro, #button-teams {
-
-display: none;
-
-}
-
 
 }
