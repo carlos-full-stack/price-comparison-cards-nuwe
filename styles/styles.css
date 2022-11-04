@@ -102,6 +102,7 @@ ul {
     left: 0;
     height: 100vh;
     width: 100vw;
+    z-index: 2;
 
 }
 
@@ -187,6 +188,12 @@ input[type="submit"]:hover {
 
 }
 
+.general-starter, .general-pro, .general-teams {
+
+    margin-top: 20px;
+
+} 
+
 /* tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -195,59 +202,73 @@ input[type="submit"]:hover {
 #card1,#card2,#card3 {
 
     display: flex;
+
+}
+
+#starter-img {
+
+    height: 165px;
+    width: auto;
+    margin: 40px;
+
 }
     
-
-
-    #starter-img {
-        height: 165px;
-        width: auto;
-        margin: 40px;
-    }
-    
-    #pro-img {
+#pro-img {
         
-         height: 120px;
-         width: auto;
-         margin: 70px 40px 40px 20px;      
-    }
+    height: 120px;
+    width: auto;
+    margin: 70px 40px 40px 20px;      
     
-    .teams-img {
-        
-        height: 110px;   
-        width: auto;
-        margin-top: 85px;
-        z-index: 1;            
-    }
-
-    #girl-img {
-
-        margin-top: 55px;
-        margin-left: -80px;
-        margin-right: -80px;
-        z-index: 0;
-    }
-
-    .general-starter {
-
-        padding: 80px 80px 80px 70px;
+}
     
-    }
-
-    .general-pro {
-
-        padding: 80px 70px 80px 25px;
+.teams-img {
     
-    }    
-    .general-teams {
+    height: 110px;   
+    width: auto;
+    margin-top: 85px;
+    z-index: 1;            
+}
 
-        padding: 80px 40px 80px 60px;
-    
-    }
+#girl-img {
 
-    .button {
+    margin-top: 55px;
+    margin-left: -80px;
+    margin-right: -80px;
+    z-index: 0;
+}
 
-display: none;
+.general-starter, .general-pro, .general-teams {
+
+    margin-top: 0px;
+
+} 
+
+.general-starter {
+
+    padding: 80px 80px 80px 70px;
+
+}
+
+.general-pro {
+
+    padding: 80px 70px 80px 25px;
+
+}    
+.general-teams {
+
+    padding: 80px 40px 80px 60px;
+
+}
+
+ul {
+
+    margin-left: 5%;
+
+}
+
+.button {
+
+    display: none;
     
 }
 
@@ -289,28 +310,9 @@ display: none;
     
 }
 
-
-
-.general-starter {
-
-margin-top: 20px;
-
-}
-
-.general-pro {
-
-margin-top: 20px;
-
-}    
-.general-teams {
-
-    margin-top: 20px;
-
-}
-
 #button-starter, #button-pro, #button-teams {
 
-display: none;
+    display: none;
 
 }
 
